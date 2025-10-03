@@ -1,0 +1,93 @@
+:root {
+  font-family: system-ui, Segoe UI, Roboto, 'Helvetica Neue', Arial
+}
+
+body {
+  margin: 0;
+  background: #f7fafc;
+  color: #111
+}
+
+.app {
+  max-width: 900px;
+  margin: 32px auto;
+  padding: 12px
+}
+
+.app-header {
+  margin-bottom: 12px
+}
+
+.brand {
+  text-decoration: none;
+  color: #111;
+  font-size: 1.5rem;
+  font-weight: 700
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px
+}
+
+.add-user,
+input,
+button {
+  font: inherit
+}
+
+.add-user input {
+  padding: 8px;
+  margin: 4px 0;
+  width: 100%;
+  box-sizing: border-box
+}
+
+.add-user button {
+  padding: 8px 12px
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px
+}
+
+.user-item {
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06)
+}
+
+.user-item a {
+  text-decoration: none;
+  color: inherit;
+  display: block
+}
+
+.company {
+  font-size: 0.9rem;
+  color: #555
+}
+
+.error {
+  color: #d00;
+  font-size: 0.8rem
+}
+
+.search-bar input {
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box
+}
+
+.user-details {
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px
+}
